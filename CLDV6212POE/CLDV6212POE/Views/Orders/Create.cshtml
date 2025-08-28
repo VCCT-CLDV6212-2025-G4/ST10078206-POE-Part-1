@@ -1,0 +1,55 @@
+﻿@model CLDV6212POE.Models.Order
+
+@{
+    var users = ViewData["Users"] as List<CLDV6212POE.Models.Users>;
+    var products = ViewData["Products"] as List<CLDV6212POE.Models.Product>;
+}
+
+<h1>Create Order</h1>
+
+@if (users == null || users.Count == 0 || products == null || products.Count == 0)
+{
+    <div class="alert alert-warning">
+        No users or products available. Please add users and products before creating an order.
+    </div>
+}
+else
+{
+    <form asp-action="Create" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label asp-for="User_Id">Select User</label>
+            <select asp-for="User_Id" class="form-control"
+                    asp-items="@(new SelectList(users, "RowKey", "User_Id"))">
+                <option value="">-- Select User --</option>
+            </select>
+            <span asp-validation-for="User_Id" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Product_Id">Select Product</label>
+            <select asp-for="Product_Id" class="form-control"
+                    asp-items="@(new SelectList(products, "Product_Id", "Product_Name"))">
+                <option value="">-- Select Product --</option>
+            </select>
+            <span asp-validation-for="Product_Id" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order_Location"></label>
+            <input asp-for="Order_Location" class="form-control" />
+            <span asp-validation-for="Order_Location" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order_Date"></label>
+            <input asp-for="Order_Date" type="datetime-local" class="form-control" />
+            <span asp-validation-for="Order_Date" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+}
+
+

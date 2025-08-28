@@ -1,0 +1,23 @@
+﻿@model CLDV6212POE.Models.Users
+
+<h1>Add New User</h1>
+
+<form asp-action="AddUser" method="post">
+    <div class="form-group">
+        <label asp-for="User_Id"></label>
+        <input asp-for="User_Id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="email"></label>
+        <input asp-for="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="password"></label>
+        <input asp-for="password" class="form-control" type="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
