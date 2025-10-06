@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\services\\azurefileshareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\services\\azurefileshareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|c:\\users\\angelo\\documents\\visual studio 2022\\projects\\cldv6212poe\\cldv6212poe\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{401FD888-5513-4884-9F4C-D5D643AE976F}|CLDV6212POE\\CLDV6212POE.csproj|solutionrelative:cldv6212poe\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,80 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CLDV6212POE\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwB4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T14:22:51.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Controllers\\FilesController.cs",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "CLDV6212POE\\Controllers\\FilesController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwEkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:11:10.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Views\\Files\\Index.cshtml",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Views\\Files\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Views\\Files\\Index.cshtml",
-              "RelativeToolTip": "CLDV6212POE\\Views\\Files\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T14:01:02.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Program.cs",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Program.cs",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Program.cs",
-              "RelativeToolTip": "CLDV6212POE\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:55:08.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AzureFileShareService.cs",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Services\\AzureFileShareService.cs",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Services\\AzureFileShareService.cs",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Services\\AzureFileShareService.cs",
-              "RelativeToolTip": "CLDV6212POE\\Services\\AzureFileShareService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwBEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:39:02.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileModel.cs",
-              "DocumentMoniker": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Models\\FileModel.cs",
-              "RelativeDocumentMoniker": "CLDV6212POE\\Models\\FileModel.cs",
-              "ToolTip": "C:\\Users\\Angelo\\Documents\\Visual Studio 2022\\Projects\\CLDV6212POE\\CLDV6212POE\\Models\\FileModel.cs",
-              "RelativeToolTip": "CLDV6212POE\\Models\\FileModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:35:17.839Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

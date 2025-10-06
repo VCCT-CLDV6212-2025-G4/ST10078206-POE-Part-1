@@ -1,7 +1,6 @@
 using CLDV6212POE.Services;
 using System.Configuration;
 
-
     public class Program
     {
         public static void Main(string[] args) 
@@ -19,10 +18,10 @@ using System.Configuration;
             builder.Services.AddSingleton(new BlobService(configuration.GetConnectionString("AzureStorage")));
 
             //register QueueService with configuration
-            builder.Services.AddSingleton<AzureFileShareService>(sp =>
-            { 
+            builder.Services.AddSingleton<QueueService>(sp =>
+            {
                 var connectionString = configuration.GetConnectionString("AzureStorage");
-                return new AzureFileShareService(connectionString, "orders");
+                return new QueueService(connectionString, "orders");
             });
 
             //register AzureFileShareService with configuration
@@ -32,7 +31,14 @@ using System.Configuration;
                 return new AzureFileShareService(connectionString, "ordershare");
             });
 
-            var app = builder.Build();
+            builder.Services.AddHttpClient<FunctionService>(client =>
+            {
+                client.BaseAddress = new Uri("https://YOUR_FUNCTION_APP.azurewebsites.net/");
+            });
+            builder.Services.AddSingleton<FunctionService>();
+
+
+        var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
